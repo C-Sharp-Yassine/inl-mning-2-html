@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidningsnamn</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="logo-bild.png"
+          alt="logotype bild"
+          loading="lazy"
+          width="100"
+          height="100"
+         >
+        <h1>Systemutvecklare med C-Sharp</h1>
+      </div>
+      <hr class="hr-1">
+      <div class="header-bottom">
+        <div class="menu">
+          <span>☰ Meny</span>
+          <nav>
+            <ul>
+              <li class="option"><a href="#">Hem</a></li>
+              <li class="option"><a href="#">Senaste nytt</a></li>
+              <li class="option"><a href="#">Arkiv</a></li>
+              <li class="option"><a href="#">Kontakta oss</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="sök">
+          <form class="search" aria-label="Sök på sidan">
+            <input type="search" placeholder="Sök...">
+            <button type="submit">🔍</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <hr class="hr-2">
+
+    <main>
+      <div class="articlar">
+        <section class="post">
+          <article>
+            <h2>Grunden i HTML</h2>
+            <figure>
+              <a href="#"
+                ><img
+                  src="systemutvecklare1.png"
+                  alt="Artikel bild"
+                  loading="lazy"
+                  width="500"
+                  height="300"
+              ></a>
+              <figcaption>Byline</figcaption>
+            </figure>
+            <p>
+              Carrot cake muffin donut cotton candy sugar plum. Biscuit caramels
+              chupa chups gummi bears fruitcake marzipan chocolate. Tootsie roll
+              cake bonbon bonbon sweet roll. Gummies chocolate bar pastry
+              tiramisu chocolate sesame snaps. Cupcake biscuit jelly marshmallow
+              liquorice bear claw fruitcake. Jelly donut gummies jelly beans
+              bonbon. Ice cream cake croissant gummies candy canes icing pastry
+              pastry. Cookie ice cream chocolate bonbon cheesecake cookie sweet
+              roll pudding carrot cake. Chocolate bear claw caramels wafer sweet
+              topping sweet.
+            </p>
+            <blockquote>
+              “Apple pie pie cupcake dessert lollipop icing ” toffee soufflé.
+              Bonbon ice cream marshmallow sesame snaps chupa chups lemon drops.
+            </blockquote>
+            <a href="#" class="btn">Läs mer</a>
+          </article>
+        </section>
+        <hr class="hr-3">
+
+        <section class="post">
+          <article>
+            <h2>Grunden i CSS</h2>
+            <figure>
+              <a href="#"
+                ><img
+                  src="systemutvecklare2.png"
+                  class="mobile"
+                  alt="Artikel bild"
+                  loading="lazy"
+                  width="500"
+                  height="300"
+              ></a>
+              <figcaption>Byline</figcaption>
+            </figure>
+            <p>
+              The path of the righteous man is beset on all sides by the
+              iniquities of the selfish and the tyranny of evil men. Blessed is
+              he who, in the name of charity and good will, shepherds the weak
+              through the valley of darkness, for he is truly his brother's
+              keeper and the finder of lost children. And I will strike down
+              upon thee with great vengeance and furious anger those who would
+              attempt to poison and destroy My brothers. And you will know My
+              name is the Lord when I lay My vengeance upon thee.
+            </p>
+
+            <p>
+              that we know who you are, I know who I am. I'm not a mistake! It
+              all makes sense! In a comic.
+            </p>
+            <a href="#" class="btn">Läs mer</a>
+          </article>
+        </section>
+        <hr class="hr-4">
+
+        <section class="post">
+          <article>
+            <h2>Grunden i C#</h2>
+            <figure>
+              <a href="#"
+                ><img
+                  class="img-right"
+                  src="systemutvecklare3.png"
+                  alt="Artikel bild"
+                  loading="lazy"
+                  width="500"
+                  height="300"
+              ></a>
+              <figcaption>Byline</figcaption>
+            </figure>
+            <div>
+              <p>
+                Lorizzle ipsizzle phat shizzle my nizzle crocodizzle amizzle, yo
+                mamma get down get down things. Nullam sapien velizzle, the
+                bizzle shit, suscipit crackalackin, gravida cool, arcu.
+                Pellentesque egizzle for sure. Sed erizzle.
+              </p>
+            </div>
+            <a href="#" class="btn">Läs mer</a>
+          </article>
+          <aside class="sidebar">
+            <hr class="hr-5">
+
+            <h2>Tipsa redaktionen</h2>
+
+            <form class="tip-form">
+              <label class="field">
+                <span>Ditt namn</span>
+                <input type="text" name="namn" autocomplete="name" required>
+              </label>
+
+              <label class="field">
+                <span>Din e-post</span>
+                <input
+                  type="email"
+                  name="epost"
+                  autocomplete="email"
+                  required
+                >
+              </label>
+
+              <label class="field">
+                <span>Din telefon</span>
+                <input type="tel" name="telefon" autocomplete="tel">
+              </label>
+
+              <label class="field">
+                <span>Välj ämne</span>
+                <select name="amne" required>
+                  <option value="">-- Välj ett ämne --</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Meddelande</span>
+                <textarea name="meddelande" rows="5"></textarea>
+              </label>
+
+              <label class="field">
+                <span>Kontakta mig</span>
+                <input type="checkbox" name="kontakt">
+              </label>
+
+              <p class="form-actions">
+                <button type="submit">Skicka</button>
+              </p>
+            </form>
+
+            <details class="gdpr">
+              <summary>GDPR och villkor</summary>
+              <p>text text text</p>
+            </details>
+          </aside>
+        </section>
+      </div>
+    </main>
+    <hr class="hr-6">
+    <footer>
+      <ul>
+        <li><a href="#">Företagsnamn</a></li>
+        <li><a href="#">Adress</a></li>
+        <li><a href="#">Telefon</a></li>
+        <li><a href="#">E-post</a></li>
+        <li><a href="#">Sociala medier</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
